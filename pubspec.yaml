@@ -32,6 +32,14 @@ dependencies:
   stream_transform: ^2.1.0
   flutter_web_frame: ^1.0.0
 
+
+  flutter_conch_loader:
+    hosted:
+      name: flutter_conch_loader
+      url: http://pub.oa.com
+    version: 1.0.0
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -40,6 +48,15 @@ dev_dependencies:
   hive_generator: ^2.0.1
   # pedantic: ^1.11.1
   flutter_lints: ^3.0.1
+
+
+dependency_overrides:
+  flutter_conch_plugin:
+    hosted:
+      name: flutter_conch_plugin
+      url: http://pub.oa.com
+    version: ^1.6.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -95,3 +112,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+conch:
+  enable: true # 开启conch（默认开启）
+  conchMode: all&hotfix
+  versionCode: 1.0.0
+  targetBaseVersions: 1.0.0
+
+

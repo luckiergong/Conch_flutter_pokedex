@@ -1,0 +1,9 @@
+{
+    "label": "Flutter: Run in RELEASE (Android)",
+    "type": "shell",
+    "command": "flutter clean && flutter pub get && flutter run --release -d emulator-5554",
+    "problemMatcher": [
+        "$flutter"
+    ],
+    "group": "build"
+}
