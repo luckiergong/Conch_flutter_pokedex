@@ -1,0 +1,5 @@
+android:
+  java_version: 11
+ios:
+  unknown:
+flutter_version: 3.16
