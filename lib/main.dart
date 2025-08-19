@@ -14,7 +14,7 @@ import 'package:flutter_conch_plugin/annotation/patch_scope.dart';
 import 'package:flutter_conch_plugin/conch_dispatch.dart';
 import 'package:flutter/services.dart';
 
-bool useConch = false;
+bool useConch = true;
 
 @PatchScope()
 Future<void> main() async {
